@@ -1,0 +1,105 @@
+/* .cryptoComponent{
+    background-color: black;
+} */
+
+.crypto-input-para{
+    /* border: 2px solid rgb(37, 44, 37); */
+    padding: 2px;
+    color: rgb(30, 43, 62);
+    font-size: 30px;
+}
+.crypto-card-container{
+    border-radius: 12px;
+    padding: 12px;
+}
+.crypto-input{
+    padding: 12px;
+    outline: none;
+    border: none;
+    width: 40vw;
+    border-bottom: 4px solid rgb(17, 17, 71);
+}
+.about-container{
+    background-image: linear-gradient(white, #000, #001529);
+    border-radius: 20px;
+    padding: 20px;
+}
+.imgContainer{
+    height: 40vh;
+    
+}
+
+.aboutPara{
+    font-size: 24px;
+    border-bottom: 2px solid brown;
+    color: rgb(209, 199, 153);
+}
+.about-title{
+    background-color: #0071bd;
+    padding: 12px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+/* contact form style */
+.flexx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.dir{
+    flex-direction: column;
+}
+.formInput{
+    padding: 15px;
+    width: 60vw;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #0071bd;
+    font-size: 19px;
+    color: #fff;
+    background: transparent;
+}
+.formInput:hover{
+    /* box-shadow: 2px 2px 2px 2px #0071bd; */
+    border-bottom: 2px solid #fff;
+
+}
+.submitbtn{
+    padding: 15px;
+    width: 25vw;
+    /* background-color: #0071bd; */
+    border: none;
+    font-size: 19px;
+    border: 2px solid #0071bd;
+    font: bolder;
+    color: #fff;
+    background-color: #0071bd;
+    border-radius: 29px;
+    
+
+}
+.submitbtn:hover{
+    color: #0071bd;
+    background-color: #fff;
+}
+.contact-title{
+    color: #0071bd;
+    font-size: 39px;
+    font-weight: 600;
+}
+.ContactForm{
+    background: #001529;
+    /* margin-bottom: 10vw; */
+    padding: 5.3vh
+}
+.social-media-container{
+    display: flex;
+    margin-top: 4px;
+    gap: 12px;
+}
+.icon{
+    font-size: 19px;
+}
